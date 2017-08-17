@@ -15,3 +15,18 @@ function showNavBar(currentPage) {
     // Locate the element for the current page and add the active and disabled classes
     $("#" + currentPage).addClass("active disabled");
 }
+
+// This function will set the size of the title region to fit the initial window exactly
+function setTitleRegionSize() {
+    var titleRegion = document.getElementById("title-region");
+    var windowHeight = $(window).height();
+
+    titleRegion.style.height = windowHeight.toString() + "px";
+    titleRegion.style.width = "100%";
+}
+
+// This function will scroll to the next section of the homepage smoothly
+function scrollHomePage(event) {
+    event.preventDefault();
+    $('html, body').animate({ scrollTop: $('#recruit').offset().top}, 500, 'linear');
+}

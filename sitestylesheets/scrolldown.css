@@ -1,0 +1,62 @@
+/* This custom CSS will be used to create a button with a cool arrow effect on the homepage. Clicking this button will
+cause a window scroll down. Inspiration for this design comes from Nayoa on Codepen.
+Url: https://codepen.io/nxworld/pen/OyRrGy
+Created by: Kirk Morgan | Time: August 17, 2017 12:02 P.M.
+ */
+
+.scroll-button a {
+    left: 50%;
+    z-index: 2;
+    text-decoration: none;
+    color: white;
+    letter-spacing: .1em;
+    transition: opacity .3s;
+}
+
+.scroll-button a:hover{
+    opacity: .8;
+    text-decoration: none;
+    color: white;
+}
+
+.scroll-button a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    -webkit-animation: arrowmove 1.5s infinite;
+    animation: arrowmove 1.5s infinite;
+    box-sizing: border-box;
+}
+
+@-webkit-keyframes arrowmove {
+    0% {
+        -webkit-transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+
+@keyframes arrowmove {
+    0% {
+        transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
