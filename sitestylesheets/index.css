@@ -3,12 +3,29 @@ Created by: Kirk Morgan | Time: August 15, 2017 10:58 P.M.
  */
 
 /* CSS by Region */
+
+/* The Title Region */
 .title-region {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
+/* Elements in the title region */
+.main-title {
+    font-size: 6vw;
+}
+
+.scroll-button {
+    position: absolute;
+    bottom: 4%;
+    padding-top: 70px;
+}
+
+/* The Recruitment Region */
 .recruitment-region {
-
+    height: 1000px;
 }
+
+/* Elements in the recruitment region */

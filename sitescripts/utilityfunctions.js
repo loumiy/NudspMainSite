@@ -24,3 +24,9 @@ function setTitleRegionSize() {
     titleRegion.style.height = windowHeight.toString() + "px";
     titleRegion.style.width = "100%";
 }
+
+// This function will scroll to the next section of the homepage smoothly
+function scrollHomePage(event) {
+    event.preventDefault();
+    $('html, body').animate({ scrollTop: $('#recruit').offset().top}, 500, 'linear');
+}

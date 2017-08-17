@@ -35,21 +35,25 @@ Created by: Kirk Morgan | Time: August 16, 2017 9:42 P.M.
     background-image: url(../siteimages/backgrounds/lakewaterfall.jpg);
     background-size: cover;
 }
+
 .background-slideshow li:nth-child(2) span {
     background-image: url(../siteimages/backgrounds/sunsetmountain.jpg);
     background-size: cover;
     animation-delay: 10s;
 }
+
 .background-slideshow li:nth-child(3) span {
     background-image: url(../siteimages/backgrounds/swissalps.jpg);
     background-size: cover;
     animation-delay: 20s;
 }
+
 .background-slideshow li:nth-child(4) span {
     background-image: url(../siteimages/backgrounds/tropicbeach.jpg);
     background-size: cover;
     animation-delay: 30s;
 }
+
 .background-slideshow li:nth-child(5) span {
     background-image: url(../siteimages/backgrounds/wintertrees.jpg);
     background-size: cover;
