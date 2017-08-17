@@ -1,0 +1,69 @@
+/* This custom CSS will be used to create a background fade reel on the homepage, inspiration for this design comes
+from Mary Lou on codrops.
+Url: https://tympanus.net/codrops/2012/01/02/fullscreen-background-image-slideshow-with-css3/
+Created by: Kirk Morgan | Time: August 16, 2017 9:42 P.M.
+ */
+
+.background-slideshow,
+.background-slideshow:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #343a40;
+}
+
+.background-slideshow li {
+    list-style: none;
+}
+
+.background-slideshow li span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background: none 50% 50%;
+    opacity: 0;
+    animation: imageAnimation 50s linear infinite 0s;
+}
+
+.background-slideshow li:nth-child(1) span {
+    background-image: url(../siteimages/backgrounds/lakewaterfall.jpg);
+    background-size: cover;
+}
+.background-slideshow li:nth-child(2) span {
+    background-image: url(../siteimages/backgrounds/sunsetmountain.jpg);
+    background-size: cover;
+    animation-delay: 10s;
+}
+.background-slideshow li:nth-child(3) span {
+    background-image: url(../siteimages/backgrounds/swissalps.jpg);
+    background-size: cover;
+    animation-delay: 20s;
+}
+.background-slideshow li:nth-child(4) span {
+    background-image: url(../siteimages/backgrounds/tropicbeach.jpg);
+    background-size: cover;
+    animation-delay: 30s;
+}
+.background-slideshow li:nth-child(5) span {
+    background-image: url(../siteimages/backgrounds/wintertrees.jpg);
+    background-size: cover;
+    animation-delay: 40s;
+}
+
+@keyframes imageAnimation {
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    10% { opacity: 1; animation-timing-function: ease-out; }
+    20% { opacity: 1 }
+    30% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+.no-cssanimations .background-slideshow li span{
+    opacity: 1;
+}
