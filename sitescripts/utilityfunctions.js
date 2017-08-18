@@ -28,5 +28,5 @@ function setTitleRegionSize() {
 // This function will scroll to the next section of the homepage smoothly
 function scrollHomePage(event) {
     event.preventDefault();
-    $('html, body').animate({ scrollTop: $('#recruit').offset().top}, 500, 'linear');
+    $('html, body').animate({ scrollTop: $('.about-region').offset().top}, 500, 'linear');
 }
