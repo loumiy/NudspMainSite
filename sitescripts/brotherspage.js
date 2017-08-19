@@ -41,6 +41,14 @@ function renderBrother(brother) {
     brotherProfile.className = "brother-profile hoverbox";
     brotherInfo.className = "brother-desc hoverbox-text";
     brotherImage.className = "brother-img hoverbox-img";
+
+    //$.get("siteimages/brotherprofilepictures/" + brother.firstName + brother.lastName + ".jpg")
+      //  .done(function() {
+        //    brotherImage.src = "siteimages/brotherprofilepictures/" + brother.firstName + brother.lastName + ".jpg";
+        //}).fail(function() {
+         //   brotherImage.src = "siteimages/brotherprofilepictures/blankbrotherprofile.jpg";
+        //});
+
     brotherImage.src = "siteimages/brotherprofilepictures/blankbrotherprofile.jpg";
     brotherInfo.append(brother.firstName + " " + brother.lastName);
 

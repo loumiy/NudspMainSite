@@ -44,11 +44,22 @@ Created by: Kirk Morgan | Time: August 19, 2017 2:10 P.M.
 
 /* The Brothers Region */
 .brothers {
-
+    padding: 0 5% 5% 5%;
 }
 
 /* Elements in the brother's region */
+
+.wrapper {
+    height: 300px;
+    width: 1000px;
+}
+
 .brother-profile {
-    height: 128px;
-    width: 128px;
+    height: 80%;
+    width: 75%;
+}
+
+.brother-img {
+    height: 100%;
+    width: 100%;
 }
