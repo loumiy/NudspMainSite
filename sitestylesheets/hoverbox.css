@@ -4,68 +4,33 @@ Url: http://css-workshop.com/hover-box-text-over-images-on-hover-and-more/
 Created by: Kirk Morgan | Time: August 18, 2017 2:15 P.M.
  */
 
-.hoverbox,
-.hoverbox * {
-    box-sizing: border-box;
-}
 .hoverbox {
     position: relative;
-    display: inline-block;
-    overflow: hidden;
-    max-width: 100%;
+    width: 70%;
     height: auto;
+    margin: auto;
 }
-.hoverbox img {
+
+.hoverbox-img {
     max-width: 100%;
 }
-.hoverbox .hoverbox-bottom {
-    display: block;
-}
-.hoverbox .hoverbox-top {
-    margin: 0 auto;
-    opacity: 0;
+
+.hoverbox-text {
     position: absolute;
+    margin: 0;
     top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 75%;
     height: 100%;
+    width: 100%;
+    opacity: 0;
     background: rgba(0, 0, 0, 0.6);
-    color: #fff;
-    padding: 5px;
+    color: white;
+    padding: 5%;
+    overflow: hidden;
     -moz-transition: all 0.4s ease-in-out 0s;
     -webkit-transition: all 0.4s ease-in-out 0s;
-    -ms-transition: all 0.4s ease-in-out 0s;
     transition: all 0.4s ease-in-out 0s;
 }
-.hoverbox:hover .hoverbox-top,
-.hoverbox.active .hoverbox-top {
-    opacity: 1;
 
-}
-.hoverbox .hoverbox-text {
-    height: 80%;
-    width: 80%;
-    text-align: center;
-    font-size: 18px;
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -moz-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-.hoverbox .hvrbox-text_mobile {
-    font-size: 15px;
-    border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
-    border-top: 1px solid rgba(179, 179, 179, 0.7);
-    margin-top: 5px;
-    padding-top: 2px;
-    display: none;
-}
-.hoverbox.active .hvrbox-text_mobile {
-    display: block;
+.hoverbox-text:hover {
+    opacity: 1;
 }
