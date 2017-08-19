@@ -2,3 +2,9 @@
 have their own files.
 Created by: Kirk Morgan | Time: August 15, 2017 10:50 P.M.
  */
+
+.shadow-box {
+    /* Creates the shadow effect (looks like hovering panel) */
+    border-bottom: 1px solid rgba(105,105,105, 0.85);
+    box-shadow: 0 0 8px .4em #888888;
+}
