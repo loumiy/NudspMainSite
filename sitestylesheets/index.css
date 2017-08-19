@@ -55,4 +55,9 @@ Created by: Kirk Morgan | Time: August 15, 2017 10:58 P.M.
     margin-top: 2%;
 }
 
+.pillar-item {
+    width: 70%;
+    height: auto;
+}
+
 

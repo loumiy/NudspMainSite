@@ -48,3 +48,7 @@ Created by: Kirk Morgan | Time: August 19, 2017 2:10 P.M.
 }
 
 /* Elements in the brother's region */
+.brother-profile {
+    height: 128px;
+    width: 128px;
+}

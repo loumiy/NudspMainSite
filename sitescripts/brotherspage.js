@@ -32,16 +32,21 @@ function renderBrotherProfiles() {
 }
 
 function renderBrother(brother) {
+    var brotherWrapper = document.createElement('div');
     var brotherProfile = document.createElement('div');
-    var brotherInfo = document.createElement('div');
+    var brotherInfo = document.createElement('p');
     var brotherImage = document.createElement('img');
 
-    brotherProfile.className = "brother-profile hoverbox col-3";
-    brotherInfo.className = "brother-image";
+    brotherWrapper.className = "wrapper col-3";
+    brotherProfile.className = "brother-profile hoverbox";
+    brotherInfo.className = "brother-desc hoverbox-text";
+    brotherImage.className = "brother-img hoverbox-img";
     brotherImage.src = "siteimages/brotherprofilepictures/blankbrotherprofile.jpg";
+    brotherInfo.append(brother.firstName + " " + brother.lastName);
 
-    brotherInfo.append(brotherImage);
-    brotherProfile.appendChild(brotherInfo);
+    brotherProfile.append(brotherImage);
+    brotherProfile.append(brotherInfo);
+    brotherWrapper.append(brotherProfile);
 
-    return brotherProfile;
+    return brotherWrapper;
 }
