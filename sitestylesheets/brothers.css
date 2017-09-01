@@ -4,16 +4,6 @@ Created by: Kirk Morgan | Time: August 19, 2017 2:10 P.M.
 
 /* CSS by Region */
 
-/* The Heading Region */
-.heading-region {
-
-    height: 65vh;
-    width: 100%;
-
-    background-image: url(../siteimages/brothersstockimg.jpg);
-    background-size: cover;
-}
-
 /* Elements in the heading region */
 .title {
     position: relative;
