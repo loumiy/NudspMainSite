@@ -348,6 +348,38 @@ const garrettFinn = {
     coops: new Array([]),
     statement: ""
 };
+const hiloniDesai = {
+    ecPosition: undefined,
+    chapterClass: Class.ALPHA,
+    status: Status.ACTIVE,
+    firstName: "Hiloni",
+    lastName: "Desai",
+    major1: Major.SUPPLY,
+    major2: Major.INFORMATION,
+    minor: undefined,
+    gradYear: "2018",
+    hometown: "San Jose, CA",
+    funFact: "",
+    interests: new Array([]),
+    coops: new Array([]),
+    statement: ""
+};
+const ilianaAmador = {
+    ecPosition: undefined,
+    chapterClass: Class.ALPHA,
+    status: Status.ACTIVE,
+    firstName: "Iliana",
+    lastName: "Amador",
+    major1: Major.SUPPLY,
+    major2: Major.INFORMATION,
+    minor: undefined,
+    gradYear: "2018",
+    hometown: "San Jose, CA",
+    funFact: "",
+    interests: new Array([]),
+    coops: new Array([]),
+    statement: ""
+};
 const kajalJani = {
     ecPosition: undefined,
     chapterClass: Class.ALPHA,
@@ -476,6 +508,22 @@ const tylerEvery = {
     coops: new Array([]),
     statement: ""
 };
+const verenaRojas = {
+    ecPosition: undefined,
+    chapterClass: Class.ALPHA,
+    status: Status.INACTIVE,
+    firstName: "Verena",
+    lastName: "Rojas",
+    major1: Major.SUPPLY,
+    major2: Major.INFORMATION,
+    minor: undefined,
+    gradYear: "2018",
+    hometown: "San Jose, CA",
+    funFact: "",
+    interests: new Array([]),
+    coops: new Array([]),
+    statement: ""
+};
 const vihaanJagtiani = {
     ecPosition: undefined,
     chapterClass: Class.ALPHA,
@@ -517,6 +565,22 @@ const aarambhPradhan = {
     status: Status.ACTIVE,
     firstName: "Aarambh",
     lastName: "Pradhan",
+    major1: Major.INFORMATION,
+    major2: Major.ECONOMICS,
+    minor: undefined,
+    gradYear: "2019",
+    hometown: "Kathmandu, Nepal",
+    funFact: "",
+    interests: new Array([]),
+    coops: new Array([]),
+    statement: ""
+};
+const claireEnzinna = {
+    ecPosition: undefined,
+    chapterClass: Class.BETA,
+    status: Status.ACTIVE,
+    firstName: "Claire",
+    lastName: "Enzinna",
     major1: Major.INFORMATION,
     major2: Major.ECONOMICS,
     minor: undefined,
@@ -1178,6 +1242,7 @@ const allBrothers = [
     ashwinSwaminathan,
     benSimon,
     cindyChoi,
+    claireEnzinna,
     coleHarper,
     connorLinehan,
     derekChen,
@@ -1188,7 +1253,9 @@ const allBrothers = [
     eugeneSiswanto,
     garrettFinn,
     hananSofiane,
+    hiloniDesai,
     idelsaSanchez,
+    ilianaAmador,
     jamesHe,
     jayPatel,
     jessicaSekler,
@@ -1226,6 +1293,7 @@ const allBrothers = [
     trooneMarchak,
     tylerEvery,
     varunPatni,
+    verenaRojas,
     vihaanJagtiani,
     yongshiWu,
     youssefElbehri,
