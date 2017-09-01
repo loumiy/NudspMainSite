@@ -37,7 +37,7 @@ function renderBrother(brother) {
     var brotherInfo = document.createElement('p');
     var brotherImage = document.createElement('img');
 
-    brotherWrapper.className = "wrapper col-3";
+    brotherWrapper.className = "wrapper col-lg-3 col-md-6 col-sm-12";
     brotherProfile.className = "brother-profile hoverbox";
     brotherInfo.className = "brother-desc hoverbox-text";
     brotherImage.className = "brother-img hoverbox-img";
