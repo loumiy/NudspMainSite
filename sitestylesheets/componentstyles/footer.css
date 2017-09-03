@@ -1,0 +1,28 @@
+/* This CSS will dictate the styling of the footer component that is placed at the bottom of each page
+Created by: Kirk Morgan | Time: September 3, 2017 12:51 A.M.
+ */
+
+.footer-heading {
+    padding-top: 5%;
+    color: white;
+    text-align: center;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-links li {
+    display: inline-block;
+    padding: 2vw;
+}
+
+.social-links img {
+    height: 7vw;
+    width: 7vw;
+
+    min-width: 64px;
+    min-height: 64px;
+}

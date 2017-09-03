@@ -13,12 +13,14 @@ homepage -->
 
     <!-- HTML Imports -->
     <link rel="import" href="templates/navbar.html">
+    <link rel="import" href="templates/footer.html">
     <!-- CSS Imports -->
     <link rel="stylesheet" type="text/css" href="sitestylesheets/custom.css">
-    <link rel="stylesheet" type="text/css" href="sitestylesheets/index.css">
-    <link rel="stylesheet" type="text/css" href="sitestylesheets/bgslideshow.css">
-    <link rel="stylesheet" type="text/css" href="sitestylesheets/scrolldown.css">
-    <link rel="stylesheet" type="text/css" href="sitestylesheets/hoverbox.css">
+    <link rel="stylesheet" type="text/css" href="sitestylesheets/pagestyles/index.css">
+    <link rel="stylesheet" type="text/css" href="sitestylesheets/componentstyles/bgslideshow.css">
+    <link rel="stylesheet" type="text/css" href="sitestylesheets/componentstyles/scrolldown.css">
+    <link rel="stylesheet" type="text/css" href="sitestylesheets/componentstyles/hoverbox.css">
+    <link rel="stylesheet" type="text/css" href="sitestylesheets/componentstyles/footer.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -41,9 +43,7 @@ homepage -->
     <!-- NavBar Initialization -->
     <script>
         showNavBar("home");
-        //showFooter(); //TODO: Create a Footer Template
     </script>
-
     <!-- Begin Page Specific HTML Here -->
     <section id="title-region" class="title-region shadow-box">
         <!-- Set the size of this section -->
@@ -120,5 +120,8 @@ homepage -->
             </div>
         </div>
     </section>
+    <script>
+        showFooter();
+    </script>
 </body>
 </html>

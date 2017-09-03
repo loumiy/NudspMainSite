@@ -1,6 +1,6 @@
 // This function will create a NavBar on which ever HTML document it is called from
 function showNavBar(currentPage) {
-    var link = document.querySelector('link[rel="import"]');
+    var link = document.querySelector('link[href="templates/navbar.html"]');
     var content = link.import;
 
     // Locate the element with the class "active". Remove the active and disabled classes so the link will once again
@@ -14,6 +14,15 @@ function showNavBar(currentPage) {
 
     // Locate the element for the current page and add the active and disabled classes
     $("#" + currentPage).addClass("active disabled");
+}
+
+// This function will create a page footer on which ever HTML document it is called from
+function showFooter() {
+    var link = document.querySelector('link[href="templates/footer.html"]');
+    var content = link.import;
+
+    var el = content.querySelector('.footer');
+    document.body.appendChild(el.cloneNode(true));
 }
 
 // This function will set the size of the title region to fit the initial window exactly
