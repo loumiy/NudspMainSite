@@ -1,0 +1,35 @@
+/* The custom CSS will contain the specific CSS for the about page of the website.
+Created by: Kirk Morgan | Time: September 3, 2017 2:07 A.M.
+ */
+
+/* CSS by Region */
+
+/* The Heading Region */
+.heading-region {
+
+    height: 65vh;
+    width: 100%;
+
+    background-image: url(../../siteimages/brothersstockimg.jpg);
+    background-size: cover;
+}
+
+/* Elements in the heading region */
+.title {
+    position: relative;
+    text-align: center;
+    top: 15vh;
+    color: black;
+    font-size: 4.5em;
+    font-weight: bold;
+}
+
+.description {
+    position: relative;
+    text-align: center;
+    top: 32vh;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
